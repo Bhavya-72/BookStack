@@ -39,7 +39,7 @@ export const Navbar = () => {
           <ul className="flex justify-center items-center gap-3">
             <li><a href="/">Home</a></li>
             <li><a href="/Contact">Contact</a></li>
-            <Link href={'/About'}>About</Link>
+            <li><Link href={'/About'}>About</Link></li>
             <li><a href="/Store"><NavigationMenuDemo/></a></li>
           </ul>
         </div>

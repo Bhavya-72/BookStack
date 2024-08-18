@@ -11,12 +11,6 @@ const books = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae molestias mollitia, perspiciatis perferendis vel similique exercitationem deserunt tempora blanditiis? Porro minus sit aliquam, eaque ipsa fuga voluptates expedita labore veritatis?",
     price: 20,
   },
-  {
-    title: "Takeshi Castle",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae molestias mollitia, perspiciatis perferendis vel similique exercitationem deserunt tempora blanditiis? Porro minus sit aliquam, eaque ipsa fuga voluptates expedita labore veritatis?",
-    price: 20,
-  },
   
 ];
 
@@ -65,13 +59,13 @@ const data = [
     content: <DummyContent />,
   },
   {
-    author: "E D Hornung",
+    author: "E W Hornung",
     title: "Dead man tell no tales",
     src: "https://m.media-amazon.com/images/I/51fqVPkz-BL.jpg",
     content: <DummyContent />,
   },
   {
-    author: "E D Hornung",
+    author: "E W Hornung",
     title: "Mr Justice Raffles",
     src: "https://m.media-amazon.com/images/I/61og-nof-XL._AC_UF1000,1000_QL80_.jpg",
     content: <DummyContent />,

@@ -4,7 +4,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 export default function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
-const products = [
+ const products = [
   {
     title: "RVSSOPORTS",
     link: "https://rvssoports-git-main-bhavya-72s-projects.vercel.app/",

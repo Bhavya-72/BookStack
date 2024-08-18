@@ -11,13 +11,6 @@ const books = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae molestias mollitia, perspiciatis perferendis vel similique exercitationem deserunt tempora blanditiis? Porro minus sit aliquam, eaque ipsa fuga voluptates expedita labore veritatis?",
     price: 20,
   },
-  {
-    title: "Takeshi Castle",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae molestias mollitia, perspiciatis perferendis vel similique exercitationem deserunt tempora blanditiis? Porro minus sit aliquam, eaque ipsa fuga voluptates expedita labore veritatis?",
-    price: 20,
-  },
-  
 ];
 
 export function AppleCardsCarouselDemoMystry() {
@@ -46,11 +39,10 @@ const DummyContent = () => {
         >
           <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
             <span className="font-bold text-neutral-700 dark:text-neutral-200">
-            {book.title}
+              {book.title}
             </span>{" "}
             {book.description}
           </p>
-          
         </div>
       ))}
     </>
