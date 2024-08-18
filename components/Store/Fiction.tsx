@@ -71,7 +71,7 @@ const data = [
     content: <DummyContent />,
   },
   {
-    author: "E D Hornung",
+    author: "E W Hornung",
     title: "Mr Justice Raffles",
     src: "https://m.media-amazon.com/images/I/61og-nof-XL._AC_UF1000,1000_QL80_.jpg",
     content: <DummyContent />,
