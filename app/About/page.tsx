@@ -5,7 +5,7 @@ import Estore from "@/assets/estore.png"
 export default function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
-export const products = [
+ const products = [
   {
     title: "RVSSOPORTS",
     link: "https://rvssoports-git-main-bhavya-72s-projects.vercel.app/",
