@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
-import Estore from "@/assets/estore.png"
 export default function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
