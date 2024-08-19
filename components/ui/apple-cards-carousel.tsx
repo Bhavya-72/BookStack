@@ -249,7 +249,7 @@ export const Card = ({
 										height={300}
 									/>
 									<h3 className="text-2xl text-center font-semibold">
-										Scan the QR code to get the book
+										Scan the QR code to donate us.
 									</h3>
 								</div>
 								<div className="flex flex-col gap-5 px-5 py-10">
