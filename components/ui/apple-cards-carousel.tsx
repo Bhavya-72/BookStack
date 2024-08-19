@@ -29,6 +29,7 @@ type Card = {
 	title: string;
 	author: string;
 	description: string;
+	btnlink: string;
 };
 
 export const CarouselContext = createContext<{
@@ -264,7 +265,7 @@ export const Card = ({
 										{card.description}
 									</p>
 									<Link
-                    href="/pdf"
+                    href={card.btnlink}
                   >
 										<Button className="w-full">
 											Download The PDF
